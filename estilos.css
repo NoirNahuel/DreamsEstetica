@@ -1,0 +1,120 @@
+.navbar{   
+    height: 70px;
+    background-color: bisque;
+}
+
+.navbar-toggler-icon{   
+    color: cornflowerblue;
+}
+
+.navbar-brand img{   
+    height: 40px;
+}
+
+.nav-link{   
+    color: cornflowerblue;
+}
+
+@media only screen and (min-width:0) and (max-width:567px ) {
+    .navbar-collapse {
+        background-color: bisque;
+        display: flex;
+        justify-content: right;
+    }
+}
+
+h1{   
+    color: cornflowerblue;
+    text-align: center;
+}
+
+h2{   
+    color: darkorchid;
+    background-color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+h3{   
+    color: rgb(95, 56, 236);
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+h4{   
+    color: blueviolet;
+    text-align: center;
+}
+
+*{   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fondo{   
+    background-image: url(Multimedia/fondo2.jpg);
+    width: 100%;
+    display: flexbox;
+}
+
+section{   
+    padding: 30px;
+}
+
+.call {   
+    background-color: bisque;
+    border: 5px solid;
+    border-radius: 10px;
+}
+
+.title {   
+    background-color: bisque;
+    margin-inline: 70px;
+}
+
+.card:hover {   
+    transform: scale(1.09);
+    filter: drop-shadow(120%);
+    box-shadow: 5px 5px 15px cornflowerblue;
+}
+
+.card {   
+    margin: 30px;
+    width: 300px;
+    height: 280px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.card-img-top{   
+    margin-top: 10px;
+}
+
+.btn{   
+    background-color: cornflowerblue;
+}
+
+.sec3{   
+    background-color: rgb(230, 229, 229);
+}
+
+footer{   
+    background-color: bisque;
+}
+
+footer p{   
+    font-size: 10px;
+}
+
+footer i{   
+    font-size: 10px;
+}
+
+table{   
+    background-color: bisque;
+}
+
+form{   
+    background-color: bisque;
+}
