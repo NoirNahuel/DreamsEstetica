@@ -22,8 +22,8 @@ body{
 .navbar{   
     height: $large;
     background-color: $color1;
-    opacity: 90%;
-
+    opacity: 97%;
+    z-index: 1;
     img{   
         height: $med;
     }
