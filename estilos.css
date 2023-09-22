@@ -1,120 +1,166 @@
-.navbar{   
-    height: 70px;
+body {
+  background-color: bisque;
+}
+
+.navbar {
+  height: 70px;
+  background-color: bisque;
+  opacity: 90%;
+}
+.navbar img {
+  height: 35px;
+}
+.navbar link {
+  color: cornflowerblue;
+}
+
+.navbar-toggler-icon {
+  color: cornflowerblue;
+}
+
+@media only screen and (min-width: 0) and (max-width: 567px) {
+  .navbar-collapse {
     background-color: bisque;
+    display: flex;
+    justify-content: right;
+  }
+}
+h1 {
+  color: cornflowerblue;
+  text-align: center;
 }
 
-.navbar-toggler-icon{   
-    color: cornflowerblue;
+h2 {
+  color: blueviolet;
+  background-color: rgb(252, 246, 239);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin-top: 5px;
 }
 
-.navbar-brand img{   
-    height: 40px;
+h3 {
+  color: blueviolet;
+  font-size: 15px;
+  margin-left: 5px;
 }
 
-.nav-link{   
-    color: cornflowerblue;
+h4 {
+  color: blueviolet;
+  text-align: center;
 }
 
-@media only screen and (min-width:0) and (max-width:567px ) {
-    .navbar-collapse {
-        background-color: bisque;
-        display: flex;
-        justify-content: right;
-    }
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-h1{   
-    color: cornflowerblue;
-    text-align: center;
+.fondo {
+  background-image: url(Multimedia/fondo2.jpg);
+  width: 100%;
+  display: flexbox;
 }
 
-h2{   
-    color: darkorchid;
-    background-color: white;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    margin-top: 5px;
+main section {
+  padding: 35px;
+}
+main section table {
+  margin: 5px;
 }
 
-h3{   
-    color: rgb(95, 56, 236);
-    font-size: 15px;
-    margin-left: 10px;
+section {
+  text-align: center;
 }
 
-h4{   
-    color: blueviolet;
-    text-align: center;
+.call {
+  background-color: bisque;
+  opacity: 90%;
+  border: 5px solid;
+  border-radius: 15px;
 }
 
-*{   
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.descrip {
+  background-color: rgb(252, 246, 239);
+  opacity: 90%;
+  border: solid cornflowerblue;
+  border-radius: 15px;
+  height: 280px;
+  margin: 5px;
+}
+.descrip p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 120%;
+  margin-inline: 15px;
+  margin-top: 15px;
 }
 
-.fondo{   
-    background-image: url(Multimedia/fondo2.jpg);
-    width: 100%;
-    display: flexbox;
+.title {
+  background-color: bisque;
+  opacity: 90%;
+  margin-inline: center;
 }
 
-section{   
-    padding: 30px;
+img {
+  max-height: 280px;
 }
 
-.call {   
-    background-color: bisque;
-    border: 5px solid;
-    border-radius: 10px;
+.card:hover {
+  transform: scale(1.09);
+  filter: drop-shadow(120%);
+  box-shadow: 5px 5px 15px cornflowerblue;
 }
 
-.title {   
-    background-color: bisque;
-    margin-inline: 70px;
+.card {
+  margin: 35px;
+  width: 300px;
+  height: 280px;
+  background-color: bisque;
+  opacity: 90%;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.card .card-img-team {
+  margin-top: 15px;
+  max-width: 250px;
+  padding-inline: 20%;
+}
+.card .card-img-top {
+  margin-top: 15px;
 }
 
-.card:hover {   
-    transform: scale(1.09);
-    filter: drop-shadow(120%);
-    box-shadow: 5px 5px 15px cornflowerblue;
+.btn {
+  background-color: cornflowerblue;
 }
 
-.card {   
-    margin: 30px;
-    width: 300px;
-    height: 280px;
-    background-color: bisque;
-    border-radius: 10px;
+.sec3 {
+  background-color: rgb(252, 246, 239);
+  opacity: 90%;
+}
+.sec3 img {
+  max-width: 180px;
+}
+.sec3 p {
+  font-family: cursive;
+}
+.sec3 a {
+  font-family: cursive;
 }
 
-.card-img-top{   
-    margin-top: 10px;
+footer {
+  background-color: bisque;
+  opacity: 90%;
+}
+footer p {
+  font-size: 15px;
+}
+footer i {
+  font-size: 15px;
 }
 
-.btn{   
-    background-color: cornflowerblue;
+table {
+  background-color: bisque;
+  opacity: 90%;
 }
 
-.sec3{   
-    background-color: rgb(230, 229, 229);
-}
-
-footer{   
-    background-color: bisque;
-}
-
-footer p{   
-    font-size: 10px;
-}
-
-footer i{   
-    font-size: 10px;
-}
-
-table{   
-    background-color: bisque;
-}
-
-form{   
-    background-color: bisque;
-}
+form {
+  background-color: bisque;
+}/*# sourceMappingURL=estilos.css.map */
